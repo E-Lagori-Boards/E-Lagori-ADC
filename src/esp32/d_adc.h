@@ -4,8 +4,6 @@
 #include "esp_err.h"
 #include "pins_arduino.h"
     
-
-
 struct d_adc_24_32{
     bool acqstate; //0 - Single acq, 1 - Continous acq
 	struct boardconf brd;
